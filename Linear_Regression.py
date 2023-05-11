@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Importing the CSV file
-dataset = pd.read_csv('C:/Users/ELCOT/Downloads/sat_gpa.csv')
+dataset = pd.read_csv('sat_gpa.csv')
 
 x = dataset.iloc[:, 0:2].values 
 y = dataset.iloc[:, 1].values 
